@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+TEMPLATES_DIR="$HOME/Library/Developer/Xcode/Templates"
+FILE_TEMPLATES_DIR="$TEMPLATES_DIR/File Templates"
+DESIGN_PATTERN_DIR="$FILE_TEMPLATES_DIR/Design Pattern"
+VIPER_FILES_DIR="$DESIGN_PATTERN_DIR/VIPER Files"
+VIPER_SPEC_TEMPLATE="$VIPER_FILES_DIR/VIPER Files.xctemplate"
+echo "Removing $VIPER_SPEC_TEMPLATE"
+rm -rf "$VIPER_FILES_DIR"
+echo "Finished"

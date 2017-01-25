@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Template Author</key>
+		<string>{Pau} - pau@depop.com</string>
+	<key>Name</key>
+        <string>VIPER Module</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>Module</string>
+	<key>Description</key>
+	<string>Create VIPER files for a module, including a public interface.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Default</key>
+			<string>Module</string>
+			<key>Description</key>
+			<string>Either you need the whole VIPER module (including Storyboard and Assets catalogue), or just implementation files for a submodule.</string>
+			<key>Identifier</key>
+			<string>viperModule</string>
+			<key>Name</key>
+			<string>VIPER module template</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Values</key>
+			<array>
+				<string>Module</string>
+				<string>Submodule</string>
+			</array>
+		</dict>
+	</array>
+	<key>Summary</key>
+	<string>Create VIPER files for a module, including a public interface.</string>
+</dict>
+</plist>
