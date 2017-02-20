@@ -29,18 +29,18 @@ class ___FILEBASENAME___Interface {
         presenter.router = router
         interactor.output = presenter
     }
+    
+    // TODO: Implement public methods
+    
+    /**
+     * Public API Examples
+     */
+    
+    //func presentInterface(viewController: UIViewController, completion: (() -> Void)? = nil) {
+    //    router.presentInterface(viewController: viewController, animated: true, completion: completion)
+    //}
+    
+    //func closeInterface(completion: (() -> Swift.Void)? = nil) {
+    //    router.closeInterface(animated: true, completion: completion)
+    //}
 }
-
-// TODO: Implement public methods
-
-/**
- * Public API Examples
- */
-
-//func presentInterface(viewController: UIViewController, completion: (() -> Void)? = nil) {
-//    router.presentInterface(viewController: viewController, animated: true, completion: completion)
-//}
-
-//func closeInterface(completion: (() -> Swift.Void)? = nil) {
-//    router.closeInterface(animated: true, completion: completion)
-//}
